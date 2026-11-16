@@ -2,131 +2,61 @@
  26i-3187 
  section d-->
  <!DOCTYPE html>
- <html>
-    <head>
-     <title>Recipe card</title>
-     </head>
-<body style="background-color:aqua;">
-    <h1>Lasagna</h1>
-    <img src="lasagna.jpg" alt="image of lasagna" width="300" height="200">
-<h2>Ingredients</h2>
-<table style="width:100%">
-   <tr>
-  
-  
-  <tr>
-    <td>1kg minced meat</td>
- 
-  </tr>
-  <tr>
-    <td>500g of lasagna sheet</td>
-   
-  </tr>
-  <tr>
-    <td>2 cup cheese</td>
-   
-  </tr>
-  <tr>
-    <td>1 cup white sauce</td>
-   
-  </tr>
-  <tr>
-    <td>3 tomatoes</td>
-   
-  </tr>
-</table>
-<h2>Spices</h2>
-<table style="width:100%">
-   <tr>
-  
-  
-  <tr>
-    <td>salt</td>
- 
-  </tr>
-  <tr>
-    <td>cumin</td>
-   
-  </tr>
-  <tr>
-    <td>red chilli</td>
-   
-  </tr>
-  <tr>
-    <td>black pepper</td>
-   
-  </tr>
-  <tr>
-    <td>paprika</td>
-   
-  </tr>
-</table>
-<h2>Steps</h2>
-<table style="width:100%">
-   <tr>
-  
-  
-  <tr>
-    <td>Boil lasagna sheets in water.</td>
- 
-  </tr>
-  <tr>
-    <td>chop all the ingredients</td>
-   
-  </tr>
-  <tr>
-    <td>cook the beef for 20 minutes.</td>
-   
-  </tr>
-  <tr>
-    <td></td>
-   
-  </tr>
-  <tr>
-    <td>asemble the lasagna sheets,beef,white sauce and put cheese on top and bake it in the ven for 35 minutes.</td>
-   
-  </tr>
-</table>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Recipes | The Recipe Journal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
 
-
-</style>
 <body>
 
-<h2>Nutrition table</h2>
+    <header>
+        <h1>The Recipe Journal</h1>
 
-<table style="width:100%">
-  <tr>
-    <th>ITEM</th>
-    <th>calories</th>
-  </tr>
-  <tr>
-    <td>Beef</td>
-    <td>2000 calories</td>
-    
-  </tr>
-  <tr>
-    <td>sauce</td>
-    <td>600 calories</td>
-    
-  </tr>
-  <tr>
-    <td>cheese</td>
-    <td>1000 calories</td>
-    
-  </tr>
-  <tr>
-    <td>sheets</td>
-    <td>700 calories</td>
-    
-  </tr>
-</table>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="recipes.html">Recipes</a>
+            <a href="recipe-details.html">Lasagna Recipe</a>
+        </nav>
+    </header>
 
-<p style="color:red;">wqqw</p>
+    <main>
+        <h2>Our Recipes</h2>
+        <p>Explore our collection of delicious homemade recipes!</p>
 
-<h1>Button</h1>
+        <section class="recipe-collection">
 
-<button type="button" onclick="alert('follow these instructions to enjoy laagna')">start cooking!</button>
+            <div class="recipe-card">
+                <img src="images/lasagna.jpg" alt="Classic Lasagna">
+                <h3>Classic Lasagna</h3>
+                <p>Layers of pasta, tender beef, creamy white sauce and cheese.</p>
+                <a href="recipe-details.html">View Recipe</a>
+            </div>
 
+            <div class="recipe-card">
+                <img src="images/pasta.jpg" alt="Creamy Alfredo Pasta">
+                <h3>Creamy Alfredo Pasta</h3>
+                <p>A creamy and delicious pasta dish for pasta lovers.</p>
+                <p class="coming-soon">Coming Soon!</p>
+            </div>
+
+            <div class="recipe-card">
+                <img src="images/cake.jpg" alt="Chocolate Cake">
+                <h3>Burberry Cake</h3>
+                <p>A rich and soft burberry cake for dessert lovers.</p>
+                <p class="coming-soon">Coming Soon!</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 The Recipe Journal</p>
+    </footer>
 
 </body>
 </html>
