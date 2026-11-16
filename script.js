@@ -17,3 +17,4 @@ function changeImage() {
 function startCooking() {
     alert("Let's start cooking your delicious lasagna!");
 }
+//recipe gallery feature
